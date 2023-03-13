@@ -1,224 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <!-- begin header -->
-    <div class="header px-10 py-5" id="home">
-      <nav class="d-flex flex-row justify-content-between">
-        <span class="brand-name"> My Portfolio </span>
-        <div class="d-flex flex-flow">
-          <a class="mx-4 nav-items" href="#home">Home</a>
-          <a class="mx-4 nav-items" href="#about">About</a>
-          <a class="mx-4 nav-items" href="#works">Works</a>
-          <a class="mx-4 nav-items" href="#contact">Contact</a>
-        </div>
-      </nav>
-      <div class="introSection row justify-content-center">
-        <div class="col-lg-6 col-md-6 col sm-12">
-          <div
-            class="introTextContainer d-flex flex-column justify-content-center"
-          >
-            <span>Hi, I'm Takahashi Katsyuki</span>
-            <span class="py-2">Grad student, major in Mathematics.</span>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
 
-            <div class="d-flex flex-row justify-content-center mt-5">
-              <a class="contact-btn" href="#contact"> Contact Me </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="d-flex justify-content-center">
-            <img src="./images/me.jpg" alt="" class="myImg" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- begin header -->
+  <div class="header px-10 py-5" id="home">
+    <nav class="d-flex flex-row justify-content-between">
+      <span class="brand-name"> My Portfolio </span>
+      <div class="d-flex flex-flow">
+        <a class="mx-4 nav-items" href="#home">Home</a>
+        <a class="mx-4 nav-items" href="#about">About</a>
+        <a class="mx-4 nav-items" href="#works">Works</a>
+        <a class="mx-4 nav-items" href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="introSection row justify-content-center">
+      <div class="col-lg-6 col-md-6 col sm-12">
+        <div class="introTextContainer d-flex flex-column justify-content-center">
+          <span>Hi, I'm Takahashi Katsyuki</span>
+          <span class="py-2">Grad student, major in Mathematics.</span>
+
+          <div class="d-flex flex-row justify-content-center mt-5">
+            <a class="contact-btn" href="#contact"> Contact Me </a>
           </div>
         </div>
       </div>
-    </div>
-    <!-- end header -->
-
-    <!-- begin about -->
-    <div class="my-5 aboutContainer" id="about">
-      <div class="d-flex flex-column">
-        <span class="aboutTitle">About me</span>
-      </div>
-      <div class="row justify-content-center shadow-lg my-5">
-        <div
-          class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center"
-        >
-          <lottie-player
-            src="https://assets4.lottiefiles.com/packages/lf20_sy6jjyct.json"
-            background="transparent"
-            speed="1"
-            style="width: 300px; height: 300px"
-            loop
-            autoplay
-          ></lottie-player>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
-          <p class="aboutText">
-            My name is Katsuyuki Takahashi. I'm a graduate student majoring in
-            mathematics, mainly working on rating algorithms, improving existing
-            algorithms and developing new one based on my knowledge of linear
-            algebra and graph theory.
-          </p>
-          <p class="aboutText">
-            I code when I have an idea for something or when I want to
-            experiment with an algorithm in my research.
-          </p>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="d-flex justify-content-center">
+          <img src="./images/me.jpg" alt="" class="myImg" />
         </div>
       </div>
     </div>
-    <!-- end about -->
+  </div>
+  <!-- end header -->
 
-    <!-- begin works -->
-    <div class="my-5 worksContainer" id="works">
-      <div class="d-flex flex-column">
-        <span class="worksTitle">Works</span>
+  <!-- begin about -->
+  <div class="my-5 aboutContainer" id="about">
+    <div class="d-flex flex-column">
+      <span class="aboutTitle">About me</span>
+    </div>
+    <div class="row justify-content-center shadow-lg my-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_sy6jjyct.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
       </div>
-      <div class="row justify-content-center shadow-lg my-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
-          <h4 class="workTitle">Some console apps</h4>
-          <p class="worksText">
-            I have developed and published a console application of my rating
-            algorithm.
-          </p>
-          <p class="worksText">
-            This example is a generic rating system called Elo-rating. For more
-            details, please click
-            <a href="https://github.com/kkml4220/static-elo-rating-NBA">here</a
-            >.
-          </p>
-        </div>
-        <div
-          class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center"
-        >
-          <img
-            src="https://user-images.githubusercontent.com/58053010/210120770-13510656-2ba2-42e6-83a9-1f00b2468ed9.gif"
-            alt=""
-            class="worksThumbnail"
-          />
-        </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+        <p class="aboutText">
+          My name is Katsuyuki Takahashi. I'm a graduate student majoring in
+          mathematics, mainly working on rating algorithms, improving existing
+          algorithms and developing new one based on my knowledge of linear
+          algebra and graph theory.
+        </p>
+        <p class="aboutText">
+          I code when I have an idea for something or when I want to
+          experiment with an algorithm in my research.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- end about -->
+
+  <!-- begin works -->
+  <div class="my-5 worksContainer" id="works">
+    <div class="d-flex flex-column">
+      <span class="worksTitle">Works</span>
+    </div>
+    
+    <div class="row justify-content-center shadow-lg my-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+        <h4 class="workTitle">MERN stack login App</h4>
+        <p class="worksText">
+          This is a sample application of login authentication for the MERN stack.
+        </p>
+        <p class="worksText">
+          The MERN stack refers to M:mongodb, E:express, R:React and N:nodejs, the major technology stacks for web
+          application development.
+          More details can be found at
+          <a href="https://mern-stack-auth-demonstrate.herokuapp.com/login">here</a>.
+        </p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+        <img src="./images/auth-demo.png" alt="" class="worksThumbnail" />
       </div>
     </div>
 
-    <div class="my-5 worksContainer">
-      <div class="row justify-content-center shadow-lg my-5">
-        <div
-          class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center"
-        >
-          <img
-            src="https://user-images.githubusercontent.com/58053010/223297825-70860880-b76b-4a12-a949-1f9bc9877b43.gif"
-            class="worksThumbnail"
-            alt=""
-          />
-        </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
-          <h4 class="workTitle">Pokédex</h4>
-          <p class="worksText">
-            I have created a simple Pokémon illustrated book. This site is
-            available on Github pages so anyone can see it.
-          </p>
-          <p class="worksText">
-            Due to the Pokémon API, you can only see the first 20 Pokémons, but
-            you can view them
-            <a href="https://kkml4220.github.io/Pokedex/">here</a>
-            .
-          </p>
-        </div>
+    <div class="row justify-content-center shadow-lg my-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+        <h4 class="workTitle">Some console apps</h4>
+        <p class="worksText">
+          I have developed and published a console application of my rating
+          algorithm.
+        </p>
+        <p class="worksText">
+          This example is a generic rating system called Elo-rating. For more
+          details, please click
+          <a href="https://github.com/kkml4220/static-elo-rating-NBA">here</a>.
+        </p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+        <img src="https://user-images.githubusercontent.com/58053010/210120770-13510656-2ba2-42e6-83a9-1f00b2468ed9.gif"
+          alt="" class="worksThumbnail" />
       </div>
     </div>
-    <!-- end works -->
+  </div>
 
-    <!-- begin contact -->
-    <div class="my-5 aboutContainer" id="contact">
-      <div class="d-flex flex-column">
-        <span class="aboutTitle">Contact me</span>
+  <div class="my-5 worksContainer">
+    <div class="row justify-content-center shadow-lg my-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+        <img src="https://user-images.githubusercontent.com/58053010/223297825-70860880-b76b-4a12-a949-1f9bc9877b43.gif"
+          class="worksThumbnail" alt="" />
       </div>
-      <div class="row justify-content-center shadow-lg my-5">
-        <div
-          class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center"
-        >
-          <lottie-player
-            src="https://assets2.lottiefiles.com/packages/lf20_gaplvsns.json"
-            background="transparent"
-            speed="1"
-            style="width: 300px; height: 300px"
-            loop
-            autoplay
-          ></lottie-player>
-        </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
-          <form action="https://api.staticforms.xyz/submit" method="post">
-            <input
-              type="hidden"
-              name="accessKey"
-              value="fc5acff4-0144-4984-87c5-17088205cf94"
-            />
-            <div class="input-group my-3 d-flex flex-column">
-              <label for="name">Name</label>
-              <input type="text" name="name" placeholder="Your Name" />
-            </div>
-            <div class="input-group my-3 d-flex flex-column">
-              <label for="email">Email</label>
-              <input type="text" name="email" placeholder="Your Email" />
-            </div>
-            <div class="input-group my-3 d-flex flex-column">
-              <label for="message">Message</label>
-              <textarea
-                type="text"
-                name="message"
-                id=""
-                cols="30"
-                rows="5"
-                placeholder="Message here"
-              ></textarea>
-            </div>
-            <input
-              type="hidden"
-              name="redirectTo"
-              value="https://kkml4220.github.io/portfolio/"
-            />
-            <div class="input-group d-flex flex-column">
-              <button class="contact-btn" type="submit">Send</button>
-            </div>
-          </form>
-        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+        <h4 class="workTitle">Pokédex</h4>
+        <p class="worksText">
+          I have created a simple Pokémon illustrated book. This site is
+          available on Github pages so anyone can see it.
+        </p>
+        <p class="worksText">
+          Due to the Pokémon API, you can only see the first 20 Pokémons, but
+          you can view them
+          <a href="https://kkml4220.github.io/Pokedex/">here</a>
+          .
+        </p>
       </div>
     </div>
-    <!-- end contact -->
+  </div>
+  <!-- end works -->
 
-    <!-- begin footer -->
-    <div>
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2023 Takahashi Katsuyuki</p>
-      </footer>
+  <!-- begin contact -->
+  <div class="my-5 aboutContainer" id="contact">
+    <div class="d-flex flex-column">
+      <span class="aboutTitle">Contact me</span>
     </div>
-    <!-- end footer -->
+    <div class="row justify-content-center shadow-lg my-5">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_gaplvsns.json" background="transparent"
+          speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
+      </div>
 
-    <!-- lottiefiles JS -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="fc5acff4-0144-4984-87c5-17088205cf94" />
+          <div class="input-group my-3 d-flex flex-column">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Your Name" />
+          </div>
+          <div class="input-group my-3 d-flex flex-column">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Your Email" />
+          </div>
+          <div class="input-group my-3 d-flex flex-column">
+            <label for="message">Message</label>
+            <textarea type="text" name="message" id="" cols="30" rows="5" placeholder="Message here"></textarea>
+          </div>
+          <input type="hidden" name="redirectTo" value="https://kkml4220.github.io/portfolio/" />
+          <div class="input-group d-flex flex-column">
+            <button class="contact-btn" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+
+  <!-- begin footer -->
+  <div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2023 Takahashi Katsuyuki</p>
+    </footer>
+  </div>
+  <!-- end footer -->
+
+  <!-- lottiefiles JS -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
